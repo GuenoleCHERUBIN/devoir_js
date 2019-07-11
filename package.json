@@ -1,0 +1,22 @@
+{
+  "name": "devoir_js",
+  "version": "1.0.0",
+  "description": "besoin:\r     tables : \r         projet(\r                 ID[int],\r                 nom_projet[varchar],\r                 text_projet[varchar],\r                 Id_createur[int]{ID table participants},\r                 Id_colab[int]{Id table participants et Id-createur != Id_colab}\r                 )\r         participants(\r                     ID[int],\r                     nom[varchar],\r                     mail[varchar],\r                     )\r         admin(\r                     ID[int],\r                     Identifiant[varchar],\r                     mdp[varchar]\r         )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuenoleCHERUBIN/devoir_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuenoleCHERUBIN/devoir_js/issues"
+  },
+  "homepage": "https://github.com/GuenoleCHERUBIN/devoir_js#readme",
+  "dependencies": {
+    
+  }
+}
