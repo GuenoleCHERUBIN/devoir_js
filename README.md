@@ -1,5 +1,10 @@
 # devoir_js
 
+Etudiants: 
+    Mary Kate LATAYAN
+    Guénolé CHERUBIN
+
+
 
 
 besoin:
@@ -29,4 +34,3 @@ besoin:
         mongoose
         expess
         bodyParser?
-        
