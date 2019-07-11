@@ -1,6 +1,6 @@
 # devoir_js
 
-Etudiants: 
+## Etudiants: 
     Mary Kate LATAYAN
     Guénolé CHERUBIN
 
