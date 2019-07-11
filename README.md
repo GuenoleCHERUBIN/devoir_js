@@ -19,13 +19,10 @@ besoin:
         participants(
                     ID[int],
                     nom[varchar],
+                    prenom[varchar],
                     mail[varchar],
                     )
-        admin(
-                    ID[int],
-                    Identifiant[varchar],
-                    mdp[varchar]
-        )
+       
 
 
 
