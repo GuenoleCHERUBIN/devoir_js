@@ -1,26 +1,30 @@
+<!--Formulaire de connexion pour administrateur-->
+
 <!doctype html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Manipulation des formulaires</title>
+    <title>Espace administrateur</title>
 </head>
 
 <body>
     <form>
-        <h1>Connexion</h1>
+        <h1>Espace admin</h1>
         <p>
-            <label for="pseudo">Pseudo</label> :
-            <input type="text" name="pseudo" id="pseudo" required>
-            <span id="aidePseudo"></span>
+            <label for="pseudo">Nom</label> :
+            <input type="text" name="nom" id="nom" required>
+            <span id="aideNom"></span>
         </p>
         <p>
-            <label for="mdp">Mot de passe</label> :
-            <input type="password" name="mdp" id="mdp" required>
-            <span id="aideMdp"></span>
+            <label for="mdp">Prenom</label> :
+            <input type="password" name="prenom" id="prenom" required>
+            <span id="aidePrenom"></span>
         </p>
+
         <input type="submit" value="Connexion">
     </form>
+
     <script src="../admin.js"></script>
 </body>
 

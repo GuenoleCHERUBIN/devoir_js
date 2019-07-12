@@ -1,5 +1,4 @@
 const express = require('express');
-const mysql = require('mysql')
 const bodyParser = require('body-parser');
 
 const app = express();
@@ -9,7 +8,6 @@ app.use(bodyParser.json());
 
 const routes = require('./api/routes/hackathonRoute');
 routes(app);
-
 
 const hostname = '127.0.0.1';
 const port = 3600;
