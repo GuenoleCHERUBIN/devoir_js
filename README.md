@@ -7,7 +7,7 @@ Etudiants:
 
 
 
-besoin:
+database :
     tables : 
         projet(
                 ID[int],
@@ -21,6 +21,7 @@ besoin:
                     nom[varchar],
                     prenom[varchar],
                     mail[varchar],
+                    admin[boulean]
                     )
        
 
@@ -28,6 +29,13 @@ besoin:
 
 
     extensions:
-        mongoose
-        expess
-        bodyParser?
+       express,
+       http,
+       body-parser,
+       mysql
+
+
+    commande for dependencies :
+        npm install
+
+
