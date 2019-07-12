@@ -1,3 +1,5 @@
+// hackathonController.js
+
 let mysql = require('mysql');
 
 let con = mysql.createConnection({
