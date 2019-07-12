@@ -8,5 +8,8 @@ module.exports = (app) => {
         .post(hackathon.add_in_bdd); //call to function add_in_bdd located in controllers/hackathonController
 
     app.route('/admin')
-        .get(hackathon.admin)
+        .get(hackathon.admin);
+
+    app.route('/register')
+        .get(hackathon.register)
 }
